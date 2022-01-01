@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-    pins.servoWritePin(AnalogPin.P1, 180)
+    pins.servoWritePin(AnalogPin.P1, 0)
     pins.servoWritePin(AnalogPin.P2, 180)
     basic.showIcon(IconNames.Yes)
     Pixel_Array.showBarGraph(180, 180)
@@ -11,7 +11,7 @@ input.onButtonPressed(Button.AB, function () {
     Pixel_Array.showBarGraph(90, 180)
 })
 input.onButtonPressed(Button.B, function () {
-    pins.servoWritePin(AnalogPin.P1, 0)
+    pins.servoWritePin(AnalogPin.P1, 180)
     pins.servoWritePin(AnalogPin.P2, 0)
     basic.showIcon(IconNames.Yes)
     Pixel_Array.showBarGraph(0, 180)
